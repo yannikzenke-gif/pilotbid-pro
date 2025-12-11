@@ -1,0 +1,21 @@
+:root {
+  --bg: #f8fafc;
+  --text: #0f172a;
+}
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  background-color: var(--bg);
+  color: var(--text);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.prose {
+  word-break: break-word;
+}
+
+input[type="file"] {
+  display: block;
+}
